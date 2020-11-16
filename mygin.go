@@ -5,7 +5,7 @@ type Engine struct {
 }
 
 func (e *Engine) Ping() string {
-	return "pong"
+	return e.Name
 }
 
 func Default() *Engine {
